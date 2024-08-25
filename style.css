@@ -1,0 +1,281 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 80px;
+    background-color: rgb(11, 13, 62);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(153, 153, 226);
+    font-size: 1.02rem;
+}
+
+.left {
+    font-size: 1.5rem;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    margin: 23px 0;
+}
+
+.firstSection>div {
+    width: 30%;
+}
+
+.leftSection {
+    font-size: 2.7rem;
+    margin: 100px 0;
+}
+
+.leftSection .buttons {
+    padding: 35px 0;
+}
+
+.leftSection .buttons .btn a {
+    color: white;
+    text-decoration: none;
+}
+
+.leftSection .btn {
+    padding: 10px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 14px;
+    cursor: pointer;
+    background-color: rgb(41, 37, 119);
+    padding: 15px 15px 15px 15px;
+
+}
+
+.rightSection img {
+    width: 80%
+}
+
+.om {
+    color: blueviolet;
+}
+
+#element {
+    color: blueviolet;
+}
+
+main hr {
+    border: 0;
+    background: rgb(165, 165, 236);
+    height: 1.2px;
+    margin: 40px 84px;
+}
+
+.text-grey {
+    color: gray
+}
+
+.secondSection {
+    height: 280vh;
+    max-width: 80vw;
+    height: 80vh;
+    margin: auto;
+    margin-top: 150px;
+}
+
+.secondSection .box {
+    background: white;
+    width: 80vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+}
+
+.secondSection .vertical {
+    height: 93px;
+    width: 1px;
+    background-color: white;
+    margin: 0 120px;
+}
+
+.image-top {
+    width: 53px;
+    position: relative;
+    top: -32px;
+    left: -9px;
+
+}
+
+.vertical-desc {
+    position: relative;
+    top: 86px;
+    color: gray;
+    width: 150px;
+    font-size: 9px;
+}
+
+.skills {
+    margin-left: 126px;
+}
+
+.front-end {
+    display: flex;
+    margin-top: 45px;
+    margin-left: 350px;
+    gap: 80px;
+    align-items: center;
+}
+
+.front-end p {
+    display: flex;
+    flex-direction: column;
+    /* Stacks the image and text vertically */
+    align-items: center;
+    /* Centers the text below the image */
+    text-align: center;
+    /* Ensures text is centered */
+    margin: 0;
+    /* Removes any default margin */
+}
+
+.back-end {
+    display: flex;
+    margin-top: 55px;
+    margin-left: 330px;
+    gap: 80px;
+}
+
+.back-end p {
+    display: flex;
+    flex-direction: column;
+    /* Stacks the image and text vertically */
+    align-items: center;
+    /* Centers the text below the image */
+    text-align: center;
+    /* Ensures text is centered */
+    margin: 0;
+    /* Removes any default margin */
+}
+
+.db {
+    display: flex;
+    margin-top: 55px;
+    margin-left: 330px;
+    gap: 80px;
+}
+
+.db p {
+    display: flex;
+    flex-direction: column;
+    /* Stacks the image and text vertically */
+    align-items: center;
+    /* Centers the text below the image */
+    text-align: center;
+    /* Ensures text is centered */
+    margin: 0;
+    /* Removes any default margin */
+}
+
+.contact {
+    margin-top: 75px;
+    margin-left: 130px;
+}
+
+.linkedin {
+    appearance: button;
+    background-color: #343eb0;
+    background-image: none;
+    border: 1px solid #000;
+    border-radius: 4px;
+    box-shadow: #fff 4px 4px 0 0, #000 4px 4px 0 1px;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: ITCAvantGardeStd-Bk, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    margin: 100px 5px 10px 0;
+    overflow: visible;
+    padding: 12px 40px;
+    text-align: center;
+    text-transform: none;
+    touch-action: manipulation;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.linkedin:focus {
+    text-decoration: none;
+}
+
+.linkedin:hover {
+    text-decoration: none;
+}
+
+.linkedin:active {
+    box-shadow: rgba(0, 0, 0, .125) 0 3px 5px inset;
+    outline: 0;
+}
+
+.linkedin:not([disabled]):active {
+    box-shadow: #fff 2px 2px 0 0, #000 2px 2px 0 1px;
+    transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+    .linkedin {
+        padding: 12px 50px;
+    }
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 90px;
+}
+
+.secondSection {
+    font-size: 15px;
+}
+
+.navigation {
+    background: linear-gradient(to right, #b464e2, #33033d);
+}
+
+.btn {
+    background: linear-gradient(to right, #310765, #9b7ace);
+}
+
+html {
+    scroll-behavior: smooth;
+    /* Enables smooth scrolling */
+}
